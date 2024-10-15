@@ -1,7 +1,5 @@
 #include <IRremote.h>
-int irp = 8;
-IRrecv IR (irp);
-decode_results cmd;
+int irp = 9;
 int dt = 1000;
 
 void setup() {
